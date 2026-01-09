@@ -1,15 +1,26 @@
-* {
-	margin: 0;
-	padding: 0;
-	box-sizing: border-box;
-}
-
-main {
-	display: block !important;
-}
-
 body {
-	text-rendering: optimizeLegibility;
-	-webkit-kit-font-smoothing: antialiased;
-	-moz-osx-font-smoothing: auto;
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  text-align: center;
+  padding-top: 50px;
+}
+
+h1 {
+  color: #333;
+}
+
+p {
+  color: #666;
+}
+
+button {
+  background-color: #007acc;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #005f99;
 }
