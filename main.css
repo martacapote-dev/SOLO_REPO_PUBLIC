@@ -1,0 +1,15 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+main {
+	display: block !important;
+}
+
+body {
+	text-rendering: optimizeLegibility;
+	-webkit-kit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: auto;
+}
